@@ -31,8 +31,7 @@ links = soup.select("ul.photo-cards li .list-card-top a")
 for link in links:
     link_list.append(link.get("href"))
 
-link_list[0] = "https://www.zillow.com/b/Emeryville-CA/37.836429,-122.29266_ll/" # It did come out in right way
-# thts why i had to add wht Angela said in front of the partial link it yielded
+link_list[0] = "https://www.zillow.com/b/Emeryville-CA/37.836429,-122.29266_ll/" 
 
 
 ## getting prices
